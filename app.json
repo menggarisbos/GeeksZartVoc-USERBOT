@@ -1,6 +1,6 @@
 {
-  "name": "⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-  "description": "🚫Geez-UserBot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "⚡GeeksZartVoc-USERBOT⚡",
+  "description": "🚫GeeksZartVoc-USERBOT🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Vckyou/Geez-UserBot",
-  "telegram": "https://t.me/VckyouuBitch",
-  "success_url": "https://t.me/CariTemanRandom",
+  "repository": "https://github.com/menggarisbos/GeeksZartVoc-USERBOT",
+  "telegram": "https://t.me/Onlymenggaris",
+  "success_url": "https://t.me/Knight_Raid_Official",
   "stack": "container",
   "env": {
     "API_KEY": {
