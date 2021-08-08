@@ -1,5 +1,5 @@
-# Port By @VckyouuBitch From Geez-Projects
-# # Copyright (C) 2021 Geez-Project
+# Port By @Onlymenggaris From Knight_Raid_Official
+# # Copyright (C) 2021 GeeksZartVoc-USERBOT
 from userbot.events import register
 from userbot import CMD_HELP
 import asyncio
@@ -78,12 +78,12 @@ async def _(event):
 
 CMD_HELP.update({
     "fakeaction":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ftyping` <jumlah teks>\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ngetiktypo` <jumlah teks>\
    \nUsage : Seakan akan sedang mengetik padahal tidak\
-   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.faudio` <jumlah teks>\
+   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.suaratypo` <jumlah teks>\
    \nUsage : Berfungsi sama seperti ftyping tapi ini dalam bentuk fake audio\
-   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.fgame` <jumlah teks>\
+   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gametypo` <jumlah teks>\
    \nUsage : Berfungsi sama seperti ftyping tapi ini dalam bentuk fake game\
-   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.fvideo` <jumlah teks>\
+   \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.videobokep` <jumlah teks>\
    \nUsage : Berfungsi sama seperti ftyping tapi ini dalam bentuk fake video"
 })
