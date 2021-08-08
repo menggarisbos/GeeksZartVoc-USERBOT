@@ -30,7 +30,7 @@ KANGING_STR = [
 
 
 @register(outgoing=True, pattern=r"^\.(?:tikel|kang)\s?(.)?")
-async def kang(args):
+async def nyolong(args):
     user = await bot.get_me()
     if not user.username:
         user.username = user.first_name
@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Sticker Berhasil Ditambahkan**\n      **>>> [Tekan Disini](t.me/addstickers/{packname}) <<<**\n**Untuk Melihat Sticker Anda**",
+            f"**Sticker Berhasil Ditambahkan**\n      **>>> 🥵[Tekan Disini]🥵(t.me/addstickers/{packname}) <<<**\n**Untuk Melihat Sticker Anda**",
             parse_mode="md",
         )
 
