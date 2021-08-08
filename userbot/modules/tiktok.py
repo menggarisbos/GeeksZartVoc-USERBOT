@@ -9,7 +9,7 @@ async def _(event):
         return
     d_link = event.pattern_match.group(1)
     if ".com" not in d_link:
-        await event.edit("`Mohon Maaf, Saya Membutuhkan Link Video Tiktok Untuk Mendownload Nya`")
+        await event.edit("`Mohon Maaf, Saya Membutuhkan Link Video Tiktod Untuk Mendownload Nya`")
     else:
         await event.edit("```Video Sedang Diproses.....```")
     chat = "@ttsavebot"
@@ -34,6 +34,6 @@ async def _(event):
 CMD_HELP.update(
     {
         "tiktok": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.tiktok <Link tiktok>`"
-        "\n• : Download Video Tiktok Tanpa Watermark"
+        "\n• : Download Video Tiktok Tanpa Watermark bangga jadi maling"
     }
 )
