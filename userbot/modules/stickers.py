@@ -24,8 +24,8 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Sedang Mengambil Sticker Ini Ke Pack Anda",
-    "Sedang Mengambil Sticker Ini Ke Pack Anda",
+    "Sedang Mencuri Sticker Ini Ke Pack Lords, ahh enak🥵",
+    "Sedang Mencuri Sticker Ini Ke Pack Lords, ahh enak🥵",
 ]
 
 
@@ -54,7 +54,7 @@ async def kang(args):
                 in message.media.document.attributes
             ):
                 emoji = message.media.document.attributes[1].alt
-                if emoji != "🔰":
+                if emoji != "😘":
                     emojibypass = True
         elif "tgsticker" in message.media.document.mime_type:
             await args.edit(f"`{random.choice(KANGING_STR)}`")
@@ -76,7 +76,7 @@ async def kang(args):
     if photo:
         splat = args.text.split()
         if not emojibypass:
-            emoji = "🔰"
+            emoji = "😘"
         pack = 1
         if len(splat) == 3:
             pack = splat[2]  # User sent both
@@ -175,7 +175,7 @@ async def kang(args):
                         return await args.edit(
                             "`Sticker telah dibuat ke pack baru !"
                             "\nIni Pack Yang Baru Saja Anda Buat !"
-                            f"\nTekan [⚡Klik Disini⚡](t.me/addstickers/{packname}) Untuk Melihat Sticker Anda",
+                            f"\nTekan [🥵Klik Disini🥵](t.me/addstickers/{packname}) Untuk Melihat Hasil nyolong Anda",
                             parse_mode="md",
                         )
                 if is_anim:
@@ -348,10 +348,10 @@ async def sticker_to_png(sticker):
 
 CMD_HELP.update(
     {
-        "stickers": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kang | .tikel [emoji('s)]?`"
+        "stickers": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.nyolong | .tikel [emoji('s)]?`"
         "\n↳ : Balas .tikel Ke Sticker Atau Gambar Untuk Menambahkan Ke Pack Mu "
         "\nBisa Memilih Emoji Sesuai Pilihanmu."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kang | .tikel  (emoji['s]]?` [nomer]?"
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.nyolong | .tikel  (emoji['s]]?` [nomer]?"
         "\n↳ : Ambil Sticker/Gambar Ke Pack Baru Mu "
         "Dan Bisa Pilih Emoji Sticker Mu."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stkrinfo`"
